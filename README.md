@@ -14,3 +14,6 @@ Firebase database manuals:
 https://firebase.google.com/docs/database/android/read-and-write?hl=es
 
 https://firebase.google.com/docs/database/android/start
+
+Agenda Cultural: https://analisi.transparenciacatalunya.cat/Cultura-oci/Agenda-cultural-de-Catalunya-per-organitzadors-/2n2k-gg9s/data
+per localitzacions https://analisi.transparenciacatalunya.cat/Cultura-oci/Agenda-cultural-de-Catalunya-per-localitzacions-/rhpv-yr4f/data
