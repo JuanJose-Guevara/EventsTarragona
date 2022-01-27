@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_inici">
+
+    <fragment
+        android:id="@+id/nav_inici"
+        android:name="org.insbaixcamp.reservesapp.ui.inici.HomeFragment"
+        android:label="Inici"
+        tools:layout="@layout/fragment_inici" />
+
+    <fragment
+        android:id="@+id/nav_registre"
+        android:name="org.insbaixcamp.reservesapp.ui.registres.GalleryFragment"
+        android:label="Registrarse"
+        tools:layout="@layout/fragment_registre" />
+
+    <fragment
+        android:id="@+id/nav_inici_sesio"
+        android:name="org.insbaixcamp.reservesapp.ui.iniciar_sesio.SlideshowFragment"
+        android:label="Iniciar Sesio"
+        tools:layout="@layout/fragment_inici_sesio" />
+    <fragment
+        android:id="@+id/nav_detalls_event"
+        android:name="org.insbaixcamp.reservesapp.ui.event.EventFragment"
+        android:label="Detall Event"
+        tools:layout="@layout/fragment_detalls_event"
+        />
+
+
+</navigation>
