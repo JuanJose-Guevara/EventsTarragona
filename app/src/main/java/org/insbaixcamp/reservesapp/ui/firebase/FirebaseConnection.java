@@ -46,7 +46,7 @@ public class FirebaseConnection {
         list = new ArrayList<>();
     }
 
-//    <test
+//    <test>
     public void getOpinions(final FireStoreResults resul) {
 
         myRef.child("Opinions").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
