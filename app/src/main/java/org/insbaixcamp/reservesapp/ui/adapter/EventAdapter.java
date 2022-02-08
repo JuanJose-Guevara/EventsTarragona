@@ -28,6 +28,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
         this.events = events;
     }
 
+    //Hola
 
     @NonNull
     @Override
