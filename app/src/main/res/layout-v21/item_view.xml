@@ -8,11 +8,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="8dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="6dp"
@@ -26,7 +26,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_imatge"
+                android:id="@+id/ivImatge"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:contentDescription="TODO"
@@ -49,7 +49,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/tv_descripcio"
+                android:id="@+id/tvData"
                 android:layout_width="142dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="8dp"
@@ -61,7 +61,7 @@
                 app:layout_constraintTop_toTopOf="@+id/view" />
 
             <TextView
-                android:id="@+id/tv_title"
+                android:id="@+id/tvTitol"
                 android:layout_width="316dp"
                 android:layout_height="23dp"
                 android:layout_marginStart="8dp"
@@ -76,7 +76,7 @@
                 app:layout_constraintTop_toTopOf="@+id/view" />
 
             <TextView
-                android:id="@+id/tv_preu"
+                android:id="@+id/tvPreu"
                 android:layout_width="50dp"
                 android:layout_height="23dp"
                 android:layout_marginEnd="12dp"
@@ -85,20 +85,8 @@
                 android:text="49,99€"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="#FFFFFF"
-                app:layout_constraintBottom_toBottomOf="@+id/iv_imatge"
+                app:layout_constraintBottom_toBottomOf="@+id/ivImatge"
                 app:layout_constraintEnd_toEndOf="@+id/view" />
-
-            <TextView
-                android:id="@+id/tv_numEntrades"
-                android:layout_width="55dp"
-                android:layout_height="21dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:text="10/50"
-                android:textColor="#FFFFFF"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/view" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
