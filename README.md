@@ -21,3 +21,5 @@ per localitzacions https://analisi.transparenciacatalunya.cat/Cultura-oci/Agenda
 
 token: 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
 aa
+
+notion: https://www.notion.so/3798f15192fa43a38fab2d72208a127e?v=09badd50221a48f48e8b98303e397670
